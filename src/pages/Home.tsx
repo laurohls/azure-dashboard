@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../App.css'
 import Card from '../components/cards/card';
 const Home = () => {
@@ -6,12 +6,12 @@ const Home = () => {
   
     const [pessoas, setPessoas] = useState(
         [
-            {"id":1, "nome": "Lauro Henrique"},
-            {"id":2, "nome": "Pedro Silva"},
-            {"id":3, "nome": "Lucas Leite"},
-            {"id":4, "nome": "Lucia Lemes"},
-            {"id":5, "nome": "Jean Carlos"},
-            {"id":5, "nome": "Jean Carlos"}
+            {"id":1, "nome": "Lauro Henrique", "tempo": 0, "projeto": "", complexidade: ""},
+            {"id":2, "nome": "Pedro Silva", "tempo": 0, "projeto": "", complexidade: ""},
+            {"id":3, "nome": "Lucas Leite", "tempo": 0, "projeto": "", complexidade: ""},
+            {"id":4, "nome": "Lucia Lemes", "tempo": 0, "projeto": "", complexidade: ""},
+            {"id":5, "nome": "Jean Carlos", "tempo": 0, "projeto": "", complexidade: ""},
+            {"id":5, "nome": "Jean Carlos", "tempo": 0, "projeto": "", complexidade: ""},
         ]
     );
 
