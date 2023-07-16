@@ -1,0 +1,59 @@
+div.card {
+    min-width: 200pt;
+    max-width: 150pt;
+   
+    text-align: left;
+    display: inline-block;
+    margin: 10px 10px;
+    border-style: solid;
+    border-width: 6px;
+    font-size: large;
+    font-weight: bolder;
+
+}
+
+div.complexidade-ocioso{
+    border-color:  rgb(66, 2, 56);
+    
+    
+}
+div.complexidade-baixa{
+    border-color:  rgb(51, 182, 51);
+    
+    
+}
+
+div.complexidade-media{
+    border-color: rgb(223, 123, 9);
+    
+}
+
+div.complexidade-alta{
+    border-color: rgb(29, 49, 230);
+    
+}
+
+div.tempo-ocioso{
+    background-color: rgb(5, 95, 5);
+    color: rgb(203, 207, 205);
+}
+
+div.tempo-normal{
+    background-color: rgb(183, 243, 183);
+    color: black;
+}
+
+div.tempo-medio{
+    background-color: rgb(68, 78, 212);
+    color: rgb(243, 243, 243);
+}
+
+div.tempo-alto{
+    background-color: rgb(223, 123, 9);
+    color: black;
+}
+
+div.tempo-muito-alto{
+    background-color: rgb(110, 36, 36);
+    color: rgb(255, 249, 249);
+}
